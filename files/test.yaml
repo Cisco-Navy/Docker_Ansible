@@ -1,0 +1,20 @@
+lab:
+    description: ''
+    notes: ''
+    timestamp: 1599693970.7292273
+    title: Lab at Wed 19:26 PM
+    version: 0.0.2
+  nodes:
+    - id: n0
+      label: csr1000v-0
+      node_definition: csr1000v
+      x: -350
+      y: -100
+      configuration: hostname inserthostname_here
+      image_definition: csr1000v-170101
+      tags: []
+      interfaces:
+        - id: i0
+          label: Loopback0
+          type: loopback
+  links: []
